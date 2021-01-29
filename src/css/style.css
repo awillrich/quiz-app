@@ -86,7 +86,6 @@ a {
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    
 }
 
 .question {
@@ -98,6 +97,7 @@ a {
     border-radius: 20px;
     padding: 0.8rem;
     text-align: center;
+    position: relative;
 }
 
 .answers {
@@ -127,4 +127,11 @@ a {
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: turquoise;
+}
+
+.question .bookmark__sign {
+  position: absolute;
+  width: auto;
+  right: 8%;
+  top: -8%;
 }
