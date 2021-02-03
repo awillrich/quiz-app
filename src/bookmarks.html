@@ -9,6 +9,7 @@
     <link href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
     <link href="../node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
     <link href="../node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
@@ -36,11 +37,14 @@
         <section class="main" id="quiz">
             <article class="quiz-card">
                 <div class="question">
-                    <span class="bookmark__active">
+                    <span class="bookmark">
                         <i class="fas fa-bookmark fa-2x bookmark__sign"></i>
                     </span>
                     <h3>Wieviele Bundesländer hat Deutschland?</h3>
-                    <button class="answer_button">Antwort zeigen</button>
+                    <button class="answer_button" id="answer_button1">Antwort zeigen</button>
+                    <div class="right_answer hidden" id="answer1">
+                        Die Antwort ist <strong>16</strong>
+                    </div>
                     <div class="answers">
                         <div class="answer">9</div>
                         <div class="answer">14</div>
@@ -50,24 +54,30 @@
                 </div>
 
                 <div class="question">
-                    <span class="bookmark__active">
+                    <span class="bookmark bookmark__active">
                         <i class="fas fa-bookmark fa-2x bookmark__sign"></i>
                     </span>
                     <h3>Wieviele Einwohner hat München?</h3>
                     <button class="answer_button">Antwort zeigen</button>
+                    <div class="right_answer hidden" id="answer1">
+                        Es sind <strong>1.561.720</strong> Einwohner (Stand: 31.3.2020)
+                    </div>
                     <div class="answers">
                         <div class="answer">1,8 Mio</div>
-                        <div class="answer">1,4 Mio</div>
+                        <div class="answer">1,5 Mio</div>
                         <div class="answer">2,7 Mio</div>
                         <div class="answer">0,8 Mio</div>
                     </div>
                 </div>
                 <div class="question">
-                    <span class="bookmark__active">
+                    <span class="bookmark">
                         <i class="fas fa-bookmark fa-2x bookmark__sign"></i>
                     </span>
                     <h3>Wie heißt die Hauptstadt von Rheinland-Pfalz?</h3>
                     <button class="answer_button">Antwort zeigen</button>
+                    <div class="right_answer hidden" id="answer1">
+                        Die Antwort lautet <strong>Mainz</strong>
+                    </div>
                     <div class="answers">
                         <div class="answer">Haßloch</div>
                         <div class="answer">Trier</div>
@@ -77,11 +87,14 @@
                 </div>
 
                 <div class="question">
-                    <span class="bookmark__active">
+                    <span class="bookmark bookmark__active">
                         <i class="fas fa-bookmark fa-2x bookmark__sign"></i>
                     </span>
                     <h3>Wieviele Bundesländer hat Deutschland?</h3>
                     <button class="answer_button">Antwort zeigen</button>
+                    <div class="right_answer hidden" id="answer1">
+                        Die Antwort ist <strong>16</strong>
+                    </div>
                     <div class="answers">
                         <div class="answer">9</div>
                         <div class="answer">14</div>
