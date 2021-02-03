@@ -9,6 +9,7 @@
     <link href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
     <link href="../node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
     <link href="../node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
@@ -38,7 +39,10 @@
                 <div class="question">
                     <i class="fas fa-bookmark fa-2x bookmark__sign"></i>
                     <h3>Wieviele Bundesländer hat Deutschland?</h3>
-                    <button class="answer_button">Antwort zeigen</button>
+                    <button class="answer_button" id="answer_button1">Antwort zeigen</button>
+                    <div class="right_answer hidden" id="answer1">
+                        Die Antwort ist <strong>16</strong>
+                    </div>
                     <div class="answers">
                         <div class="answer">9</div>
                         <div class="answer">14</div>
